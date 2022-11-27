@@ -25,5 +25,14 @@
     // the diff. is in slice we can provide negative number to the slice method
 
     console.log('     test      '.trim());
+    
+    // these are some advance string methods
+    
+    console.log('     test      '.trimStart()); //test
+    console.log('      test     '.trimEnd()); //     test
+    console.log('test'.padStart(7)); //   test , space = 7 - no of word 
+    console.log('test'.padStart(7, '$')); // $$test
+    console.log('I like apples'.replace('apples', 'bananas')); // I like bananas
+
 
 }());
